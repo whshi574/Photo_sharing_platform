@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" href="css/pagecss.css">
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/waterFall.js"></script>
+    <script defer src="js/searchInput.js"></script>
+    <script defer src="js/someEffect.js"></script>
+    <script defer src="js/eventDelegation.js"></script>
+</head>
+
+<body>
+    <div id="page">
+        <div id="head_page_box">
+            <div id="menu_bar" class="menu_bar1">
+                <div class="menu_left">
+                    <a id="logo" class="logo_dif" href=""></a>
+                </div>
+                <div class="search_box">
+                    <form method="get" action="#" class="search_unit">
+                        <input id="manu_search_input" class="search_input" type="text" size="27" name="search_input" autocomplete="off" placeholder="Search whatever you like" value="">
+                        <!--Search button-->
+                        <a href="#" class="search_go"></a>
+                        <div class="search_answer_view" style="min-width: 558px;">
+                            <!--
+                            <ul>
+                                <li>li1111111111111111111111</li>
+                                <li>li2222222222222222222222</li>
+                                <li>li333333333333333333333</li>
+                                <li>li4444444444444444444444444</li>
+                                <li>li555555555555555555555555555</li>
+                            </ul>
+                            -->
+                        </div>
+                    </form>
+                </div>
+                <div class="menu_right">
+                    <div class="nav_login">
+					    <a id="register_btn" class="nav_btn"><span>Register</span></a>
+                        <a id="login_btn" class="nav_btn"><span>Log in</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mask"></div>
+            <div id="head_page">
+                <div class="title_box">
+                    <h1 id="head_title">Photo Sharing Platform for Media Institute in MUST</h1>
+                </div>
+                <div class="search_box">
+                    <form method="get" action="#" class="search_unit">
+                        <input id="title_search_input" class="search_input" type="text" size="27" name="search_input" autocomplete="off" placeholder="Search whatever you like" value="">
+                        <!--Search button-->
+                        <a href="#" class="search_go"></a>
+                        <div class="search_answer_view" style="min-width: 558px;">
+                            <!--
+                            <ul>
+                                <li>li1111111111111111111111</li>
+                                <li>li2222222222222222222222</li>
+                                <li>li333333333333333333333</li>
+                                <li>li4444444444444444444444444</li>
+                                <li>li555555555555555555555555555</li>
+                            </ul>
+                            -->
+                        </div>
+                    </form>
+                    <div class="hot-words" style="display: block;">
+                        <span>Popular searches:</span><a href="">MUST</a><span>，</span>
+                        <a href="">sunrise</a><span>，</span>
+                        <a href="">train</a><span>，</span>
+                        <a href="">beach</a><span>，</span>
+                        <a href="">mountain</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_page">
+            <div class="recommend_line">
+                <p>Recommended pictures</p>
+            </div>
+            <div id="img_page">
+                <!--
+                <div class="box">
+                    <div class="pic">
+                        <div class="heart_btn heart_btn_show" data-selected="false"><i class="heart"></i></div>
+                        <a href=""><img src="images/0.jpg" /><div class="img_shadow cover"></div></a>
+                        <p class="img_infor">
+                            This is introduction of the picture.
+                        </p>
+                        <div class="author_infor">
+                            <a class="author_head" href=""><img src="img_test/author_test.jpg"></a>
+                            <p class="author_name">Name of author</p>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+    <div id="returnTop" title="Back to top"></div>
+    <div id="ls_box" class="login_box" style="display:none">
+        <div id="login_frame" class="horizontalCenter">
+            <img src="img/head-img/logo.svg" alt="" class="">
+            <div class="login_wrap">
+                <div id="login_page" style="display: none;">
+                    <p class="with_line">Please input account and password</p>
+                    <form action="#" method="POST" class="login_form">
+                        <input type="text" class="ls_input" name="account" placeholder="Please input account" />
+                        <input type="password" class="ls_input" name="password" placeholder="Please input password" />
+                        <input type="submit" class="sub_input" name="submit" value="Log in" />
+                    </form>
+                    <div class="switch_back">
+                        <a id="forgetPassword" class="left">Forget password?</a>
+                        <p class="right">
+                            No account
+                            <a id="toSignup">Click register</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="login_close">
+                <i></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
